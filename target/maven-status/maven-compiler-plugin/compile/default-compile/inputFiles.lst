@@ -1,0 +1,6 @@
+D:\springboot\mail\src\main\java\com\sending\mail\MailApplication.java
+D:\springboot\mail\src\main\java\com\sending\mail\controllers\EmailController.java
+D:\springboot\mail\src\main\java\com\sending\mail\config\EmailConfig.java
+D:\springboot\mail\src\main\java\com\sending\mail\services\IEmailService.java
+D:\springboot\mail\src\main\java\com\sending\mail\services\models\EmailDTO.java
+D:\springboot\mail\src\main\java\com\sending\mail\services\impl\EmailServiceImpl.java

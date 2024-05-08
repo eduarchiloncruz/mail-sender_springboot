@@ -1,0 +1,6 @@
+com\sending\mail\services\impl\EmailServiceImpl.class
+com\sending\mail\MailApplication.class
+com\sending\mail\controllers\EmailController.class
+com\sending\mail\services\models\EmailDTO.class
+com\sending\mail\config\EmailConfig.class
+com\sending\mail\services\IEmailService.class
