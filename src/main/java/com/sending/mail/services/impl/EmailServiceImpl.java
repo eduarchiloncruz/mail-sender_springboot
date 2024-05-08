@@ -8,7 +8,6 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 import org.thymeleaf.TemplateEngine;
-import org.thymeleaf.context.Context;
 
 @Service
 public class EmailServiceImpl implements IEmailService {
@@ -29,12 +28,6 @@ public class EmailServiceImpl implements IEmailService {
 
             mimeMessageHelper.setTo(emailDTO.getRecipient());
             mimeMessageHelper.setSubject(emailDTO.getSubject());
-
-           /* Context context = new Context();
-            context.setVariable("content", emailDTO.getContent());
-            String html = templateEngine.process("email", context);
-
-            mimeMessageHelper.setText(html, true); */
 
             mimeMessageHelper.setText(emailDTO.getContent(), true);
             mailSender.send(mimeMessage);
